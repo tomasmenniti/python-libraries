@@ -25,8 +25,8 @@ print(df)
 
 # 2. Guardar y cargar el dataset
 print("\n2. Guardar y cargar el dataset")
-df.to_csv('ventas.csv', index=False)
-df_loaded = pd.read_csv('ventas.csv')
+df.to_csv('data/ventas.csv', index=False)
+df_loaded = pd.read_csv('data/ventas.csv')
 print("\nDataset cargado desde archivo:")
 print(df_loaded)
 
