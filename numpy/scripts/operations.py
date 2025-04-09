@@ -76,8 +76,8 @@ print("Personas con altura > 180 cm:", tall_people)
 print("\n7. Guardar y cargar arrays")
 
 # Guardar el array en un archivo .npy
-np.save('heights_data.npy', heights)
+np.save('data/heights_data.npy', heights)
 
 # Cargar el array desde el archivo
-loaded_heights = np.load('heights_data.npy')
+loaded_heights = np.load('data/heights_data.npy')
 print("Alturas cargadas desde archivo:", loaded_heights)
